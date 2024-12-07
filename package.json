@@ -1,6 +1,6 @@
 {
   "name": "react-native-maker",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A powerful CLI tool to quickly scaffold React Native project structures with customizable folder layers.",
   "main": "index.js",
   "bin": {
@@ -11,6 +11,7 @@
     "fs-extra": "^10.0.0",
     "inquirer": "^8.2.0"
   },
+  "homepage": "https://github.com/getsettalk/react-native-maker.git",
   "author": "Sujeet Kumar",
   "keywords": [
     "react-native",
