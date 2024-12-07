@@ -4,6 +4,10 @@
 
 This is a powerful CLI tool for scaffolding React Native projects with a comprehensive, opinionated project structure. It helps developers quickly set up a well-organized React Native application with optional configurations for navigation, state management, and storage.
 
+![image](https://github.com/user-attachments/assets/8fbe7fa3-d902-4810-92cd-1bb0f8ec6b32) ![image](https://github.com/user-attachments/assets/3848ace5-c45c-4b01-88c3-42e30e4b30f4)
+
+
+
 ## Features
 
 ### Project Structure Creation
@@ -83,6 +87,7 @@ When you run the scaffolder, you'll be prompted with several configuration choic
    - None
 
 ## No Installation Direct Usage
+![Uses](https://img.shields.io/badge/Uses-how%20to%20install%20or%20use-green?labelColor=success&style=flat)
 
 ```bash
 # Navigate to your project directory
@@ -90,6 +95,8 @@ When you run the scaffolder, you'll be prompted with several configuration choic
 npx react-native-maker
 ```
 
+
+![Easy Command to create ](https://img.shields.io/badge/Easy%20Command%20to%20create-how%20to%20install%20or%20use-green?labelColor=success&style=flat)
 > **All folder are created, now you can modify files and folder its create typescript files which you may change or delete**
 
 ## Configurations Created
