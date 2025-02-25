@@ -86,13 +86,56 @@ When you run the scaffolder, you'll be prompted with several configuration choic
    - Context API
    - None
 
-## No Installation Direct Usage
+## Installation And Direct Usage (Required step) ✅
 ![Uses](https://img.shields.io/badge/Uses-how%20to%20install%20or%20use-green?labelColor=success&style=flat)
+### Dependencies (Install it globaly)
+- fs-extra
+- path
+- chalk
+- inquirer
+- @react-native/typescript-config
+
 
 ```bash
 # Navigate to your project directory
+yarn add babel-plugin-module-resolver --dev
 # Run the scaffolder
 npx react-native-maker
+```
+
+## Now create babel.config.js (root dir)
+and copy and paste these code in that file:
+
+```
+module.exports = {
+  presets: ['module:@react-native/babel-preset'],
+ 
+  plugins: [
+    [
+      'module-resolver',
+      {
+        root: ['./src'],
+        alias: {
+          "@assets": './src/assets',
+          "@features": './src/features',
+          "@navigation": './src/navigation',
+          "@components": './src/components',
+          "@state": './src/state',
+          "@store": './src/store',
+          "@service": './src/service',
+          "@styles": './src/styles',
+          "@utils": './src/utils',
+          "@i18n": './src/i18n',
+          "@theme": './src/theme',
+          "@constants": './src/constants',
+          "@context": './src/context',
+          "@hooks": './src/hooks',
+        }
+      }
+    ],
+  // other pluging you can add here 
+  ]
+};
 ```
 
 
@@ -144,12 +187,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 MIT License
 
-## Dependencies (no direct installation)
-- fs-extra
-- path
-- chalk
-- inquirer
-- @react-native/typescript-config
 
 ## Troubleshooting
 
