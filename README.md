@@ -127,6 +127,7 @@ module.exports = {
           "@utils": './src/utils',
           "@i18n": './src/i18n',
           "@theme": './src/theme',
+          "@types": './src/types',
           "@constants": './src/constants',
           "@context": './src/context',
           "@hooks": './src/hooks',
@@ -138,6 +139,7 @@ module.exports = {
 };
 ```
 
+>Remember that it will modify you tsconfig.json file also. 👶
 
 ![Easy Command to create ](https://img.shields.io/badge/Easy%20Command%20to%20create-how%20to%20install%20or%20use-green?labelColor=success&style=flat)
 > **All folder are created, now you can modify files and folder its create typescript files which you may change or delete**

@@ -1,6 +1,6 @@
 {
   "name": "react-native-maker",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "A powerful CLI tool to quickly scaffold React Native project structures with customizable folder layers.",
   "main": "index.js",
   "bin": {

@@ -170,6 +170,8 @@ class ReactNativeProjectScaffolder {
 
             // Constants
             'src/constants',
+            'src/hooks', // Custom hooks
+            'src/context', // Context providers and consumers
 
             // Features (Screens by functionality)
             'src/features/auth',     // Authentication screens (e.g., login, register)
@@ -445,16 +447,19 @@ class ReactNativeProjectScaffolder {
                 paths: {
                     "@assets/*": ["assets/*"],
                     "@features/*": ["features/*"],
-                    "@service/*": ["service/*"],
                     "@navigation/*": ["navigation/*"],
                     "@components/*": ["components/*"],
                     "@state/*": ["state/*"],
+                    "@store/*": ["store/*"],
+                    "@service/*": ["service/*"],
                     "@styles/*": ["styles/*"],
                     "@utils/*": ["utils/*"],
                     "@i18n/*": ["i18n/*"],
-                    "@store/*": ["store/*"],
                     "@theme/*": ["theme/*"],
-                    "@constants/*": ["constants/*"]
+                    "@types/*": ["types/*"],
+                    "@constants/*": ["constants/*"],
+                    "@context/*": ["context/*"],
+                    "@hooks/*": ["hooks/*"]
                 }
             }
         };
